@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  padding: 30px 40px;
+  max-width: 1300px;
+  margin: auto;
+}
+.content{
+  width: 100%;
+  padding: 25px 25px 25px 160px;
+}
+@media screen and (max-width:600px) {
+  .content{
+    padding: 120px 25px 25px 25px;
+    box-sizing: border-box;
+  }
+}

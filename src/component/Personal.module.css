@@ -1,0 +1,111 @@
+.personal{
+    width: 90%;
+    padding: 20px;
+}
+.closeUp{
+    text-align: left;
+    opacity: 0;
+    animation: FadeIn 2s 1s ease-out forwards;
+}
+.closeUp span{
+    font-size: 24pt;
+    font-family: 'font3';
+    color: var(--color-main);
+    text-shadow: 1px 1px 3px black;
+}
+.closeUp pre{
+    color:  gainsboro;
+    font-family: 'font1';
+    font-size: 16pt;
+    white-space: pre-wrap;
+    width: 100%;
+    margin-top: 10px;
+}
+.hobbies{
+    width: 100%;
+    text-align: left;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0;
+    animation: FadeIn 2s 3s ease-out forwards;
+}
+.hobbies > span ,.gallery > span ,.social >span{
+    font-size: 26pt;
+    font-family: 'font3';
+    text-shadow: 1px 1px 2px black;
+    width: 100%;
+}
+.item{
+    width: 200px;
+    display: flex;
+    margin: 10px;
+}
+.item span{
+    font-size: 20pt;
+    font-family: 'font1';
+    color: gainsboro;
+}
+.item svg{
+    width: 20px;
+    fill: var(--color-main);
+    filter: drop-shadow(0px 0px 1px black);
+    margin-left: 10px;
+}
+.gallery{
+    text-align: left;
+    margin-top: 50px;
+    opacity: 0;
+    animation: FadeIn 2s 5s ease-out forwards;
+}
+.album{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    position: relative;
+}
+.album img{
+    margin: 10px;
+    height: 160px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    transition: .5s;
+    position: relative;
+}
+.album img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--color-main);
+    transition: .5s;
+    transform: scale(1.1);
+}
+.social{
+    text-align: left;
+    margin-top: 50px;
+    opacity: 0;
+    animation: FadeIn 2s 7s ease-out forwards;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.icons svg{
+    width: 40px;
+    fill: var(--color-main);
+    transition: .5s;
+    filter: drop-shadow(0 0 5px black);
+    margin-right: 20px;
+}
+.icons svg:hover{
+    filter: drop-shadow(0 0 5px gray);
+    transition: .5s;
+}
+
+@keyframes FadeIn {
+    to{
+        opacity: 1;
+    }
+}

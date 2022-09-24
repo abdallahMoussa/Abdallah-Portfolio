@@ -1,0 +1,106 @@
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+    padding-top: 10px;
+}
+.search{
+    width: 40vw;
+    margin: auto;
+    position: relative;
+    height: 180px;
+    z-index: 99;
+}
+.searchInput{
+    width: 100%;
+    font-size: 16pt;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .5);
+    padding-left: 10px; 
+    cursor: none;
+}
+.add{
+    content: 'Add';
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 30px;
+    color: black;
+    background-color: var(--color-main);
+    border-radius: 5px;
+    margin: 6px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14pt;
+    padding-top: 2px;
+    box-shadow: inset 0 0 5px black;
+    cursor: none;
+    transition: .3s;
+    z-index: 999;
+}
+.suggest{
+    width: 100%;
+    background-color: rgba(220, 220, 220, .3);
+    border-radius: 5px;
+    overflow: hidden;
+    padding:  0 5px;
+    transition: .5s;
+}
+.suggest span{
+    width: 100%;
+    background-color: gray;
+    display: block;
+    margin: auto;
+    border-radius: 3px;
+    color: black;
+    font-family: 'font1';
+    margin: 5px 0;
+    box-shadow:   0 0 2px black;
+    transition: .5s;
+}
+.skillList{
+    position: relative;
+    width: 100%;
+    padding: 0px 10px 50px;
+    margin-top: 0px;
+    height: auto;
+    position: relative;
+}
+.showAll{
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    position: absolute;
+    top: -30px;
+    z-index: 999;
+}
+.showAll span{
+    background-color: var(--color-main);
+    color: black;
+    padding: 3px 5px;
+    font-size: 16pt;
+    font-weight: bold;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(220, 220, 220, .3);
+    opacity: .5;
+    display: none;
+    cursor: pointer;
+    box-shadow: 0 0 3px black;
+    transition: .5s;
+}
+.showAll span:hover{
+    opacity: 1;
+    transition: .5s;
+    box-shadow: 0 0 3px var(--color-main);
+}
+@media screen and (max-width: 600px) {
+    .search{
+        width: 60vw;
+    }
+    .showAll{
+        left: -20px;
+    }
+}

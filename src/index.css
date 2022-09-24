@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  --color-main: #01b691;
+}
+
+body{
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('/public/assist/images/bg.jpg');
+  background-position: top left;
+  background-repeat: repeat;
+  background-size: contain;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.overlay{
+  min-height:calc(100vh - 60px);
+  min-width: 300px;
+  color: var(--color-main);
+  border-color: var(--color-main);
+}
+
+#active{
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px black;
+  box-shadow: 1px 1px 5px gray ;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: ghostwhite;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-main);
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px black ;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+  
+}
+@font-face {
+  font-family: 'font1';
+  src: url('/public/assist/fonts/LENNMI_.TTF');
+}
+@font-face {
+  font-family:'font2' ;
+  src: url('/public/assist/fonts/Evil-Of-Frankenstein-Regular.ttf');
+}
+@font-face {
+  font-family:'font3' ;
+  src: url('/public/assist/fonts/HIGHOB_.TTF');
+}
+@font-face {
+  font-family: 'font4';
+  src: url('/public/assist/fonts/GILSANUB.TTF');
+}
+@font-face {
+  font-family: 'font5';
+  src: url('/public/assist/fonts/JolenesHand-Regular.ttf');
+}
+@font-face {
+  font-family: 'font6';
+  src: url('/public/assist/fonts/MATURASC.TTF');
+}
+
+@media screen and (max-width:700px) {
+
+  #active{
+    box-shadow: none ;
+    filter: drop-shadow(0 0 5px var(--color-main));
+  }
+  .overlay{
+    border: 2px solid;
+    border-right: 0px solid;
+  }
+}

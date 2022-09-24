@@ -1,0 +1,57 @@
+.contact{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item{
+    max-width: 300px;
+    display: flex;
+    word-break: break-all;
+    align-items: center;
+    margin: 0 50px 50px 0;
+    align-items: flex-start;
+}
+.icon{
+    width: 100px;
+    margin-top: -70px;
+    opacity: 0;
+    margin-right: 20px;
+    fill: var(--color-main);
+    filter: drop-shadow(1px 1px 2px black);
+    animation: fadeIn 2s 1s ease-out forwards;
+    display: block;
+}
+.icon svg{
+    width: 35px;
+}
+@keyframes fadeIn {
+    50%{
+        opacity: .8;
+        margin-top: 0;
+    }
+    100%{
+        opacity: .8;
+        margin-top: 0;
+        width: 30px;
+    }
+}
+.disc{
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    margin-left: -40px;
+    color: white;
+    opacity: 0;
+    animation: showDisc 2s 3s ease-out forwards;
+    font-family: 'font3';
+    font-size: 16pt;
+    line-height: 40px;
+}
+
+@keyframes showDisc {
+    to{
+        opacity: 1;
+        margin-left: 0;
+    }
+}

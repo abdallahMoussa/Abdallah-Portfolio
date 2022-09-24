@@ -1,0 +1,44 @@
+[
+    {
+        "name":"Shopping Home",
+        "img":"/assist/images/shopping home.png",
+        "techs":["Html","CSS Modules","JavaScript","React Js"],
+        "link":"https://online-clothes-shop.vercel.app/"
+    },
+    {
+        "name":"Book Shop",
+        "img":"/assist/images/Book Shop.png",
+        "techs":["Html","CSS Modules","Tailwind","JavaScript","React Js"],
+        "link":"https://online-book-shop.vercel.app/"
+    },
+    {
+        "name":"To Do List",
+        "img":"/assist/images/TODoList.png",
+        "techs":["Html","CSS","JavaScript","React Js"],
+        "link":"https://react-todo-list-fawn.vercel.app/"
+    },
+    {
+        "name":"N-Puzzle Game",
+        "img":"/assist/images/nPuzzle.png",
+        "techs":["Html","CSS","JavaScript","jQuery"],
+        "link":"https://react-todo-list-fawn.vercel.app/"
+    },
+    {
+        "name":"BRI Game",
+        "img":"/assist/images/Bri.png",
+        "techs":["Html","CSS","JavaScript","jQuery"],
+        "link":"https://bri-game.vercel.app/"
+    },
+    {
+        "name":"Animated Bee",
+        "img":"/assist/images/Bee.png",
+        "techs":["Html","CSS","Java Script","jQuery"],
+        "link":"https://animated-flying-bee.vercel.app/"
+    },
+    {
+        "name":"Songs Player",
+        "img":"/assist/images/Player.png",
+        "techs":["Html","CSS","Java Script","jQuery"],
+        "link":"https://music-player-eight-hazel.vercel.app/"
+    }
+]

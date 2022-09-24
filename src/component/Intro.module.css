@@ -1,0 +1,166 @@
+.overLay{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    padding-top: 20%;
+}
+.container{
+    width: 350px;
+    border: 0px solid var(--color-main);
+    height: 320px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    margin: auto;
+}
+.name{
+    width: 150px;
+    height: 255px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.name > span{
+   font-size: 24pt;
+   font-weight: bolder;
+   font-family: Arial;
+   position: relative;
+   color: var(--color-main);
+   text-shadow:  0px 0px 4px black;
+   opacity: 1;
+   display: block;
+   margin-left: -150px;
+}
+.name > span:nth-child(1){
+    opacity: .6;
+    animation: showName 1s 7.5s ease-out forwards;
+}
+.name > span:nth-child(2){
+    animation: showName 1s 8s ease-out forwards;
+}
+.name > span:nth-child(3){
+    font-size: 28pt;
+    animation: showName 1s 8.5s ease-out forwards;
+}
+.title{
+    height: 110px;
+    padding: 20px 0 0 5px;
+    font-size: 12pt;
+    font-family: arial;
+    color: var(--color-main);
+    opacity: .7;
+    margin-left: -150px;
+    animation: showName 1s 9.5s ease-out forwards;
+}
+.title span{
+    font-size: 18pt;
+    letter-spacing: -1px;
+    margin-left: 20px;
+    opacity: 1;
+    font-weight: bold;
+}
+@keyframes showName {
+    to{
+        margin-left: 4px;
+    }
+}
+
+.chap{
+    width: 200px;
+    height: 255px;
+    position: relative;
+    overflow: hidden;
+}
+.chap::before{
+    content: '';
+    position: absolute;
+    width: 26px;
+    border-radius: 10px;
+    height: 6px;
+    background-color: var(--color-main);
+    right: 0px;
+    z-index: 10;
+    margin-top: 50%;
+    animation: widthInc .5s .5s ease-out forwards ,hightInc 1.5s 1s ease-out forwards;
+}
+@keyframes hightInc {
+    to{
+        height: 100%;
+        margin-top: 0;
+    }
+}
+@keyframes widthInc {
+    to{
+        width: 6px;
+    }
+}
+.textureImg{
+    width: 2000px;
+    height: 100%;
+    color: var(--color-main);
+    text-align: justify;
+    font-size: 3.55px;
+    font-family: monospace;
+    line-height: 4.2px;
+    white-space: pre-wrap;
+    position: relative;
+    left: -2px;
+    transform: scaleX(-1);
+    text-align: left;
+    letter-spacing: 16px;
+    animation : moving 5s 2s ease-out forwards , fadeOut 1s 7s ease-out forwards;
+    opacity: .2;
+   
+}
+@keyframes moving {
+    100%{
+        width:200px;
+        letter-spacing: 0;
+        opacity: 1;
+        text-shadow: 0px 0px 5px var(--color-main),
+                    0px 0px 5px var(--color-main),
+                    0px 0px 5px var(--color-main),
+                    0px 0px 5px var(--color-main),
+                    0px 0px 5px var(--color-main),
+                    0px 0px 5px var(--color-main); 
+    }
+}
+@keyframes fadeOut {
+    to{
+        opacity: 0;
+    }
+}
+
+.img{
+    position: absolute;
+    top:0px;
+    width: 100%;
+    left: -2px;
+    height: 100%;
+    border-radius: 0 0 40px 5px;
+    transform: scaleX(-1);
+    opacity: 0;
+    animation: fadeIn 3s 6.6s forwards;
+}
+@keyframes fadeIn {
+    to{
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .container{
+        transform: scale(1);
+    }
+
+}
+

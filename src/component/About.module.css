@@ -1,0 +1,101 @@
+.about{
+    padding: 20px 0px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.section{
+    width: 100%;
+    min-width: 300px;
+    font-family: 'font3';
+    margin-bottom: 40px;
+    padding-right: 25px;
+}
+.section span:first-child{
+    font-size: 7vw;
+    display: block;
+    margin-top: -50px;
+    opacity: 0;
+    position: absolute;
+    text-shadow: 1px 1px 1px black;
+}
+.who{
+    animation: fadeInTitle 1s ease-out 1s forwards , fadeOutTitle 1s ease-in-out 3s forwards;
+}
+.disc{
+    width: 100%;
+    white-space: pre-wrap;
+    opacity: 0;
+    margin-left: -20px;
+    font-family: sans-serif;
+    font-size: 16pt;
+    color: gainsboro;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px black;
+}
+.discWho{
+    animation: fadeIn 1s 4s ease-out forwards;
+}
+.education{
+    animation: fadeInTitle 1s ease-out 6s forwards , fadeOutTitle 1s ease-in-out 7s forwards;
+}
+.eduDisc{
+    white-space: inherit;
+    animation: fadeIn 1s 8s ease-out forwards;
+}
+
+.lang{
+    animation: fadeInTitle 1s ease-out 9s forwards , fadeOutTitle 1s ease-in-out 10s forwards;
+}
+.langDisc{
+    font-size: 20pt;
+    animation: fadeIn 1s 11s ease-out forwards;
+}
+
+.millitary{
+    font-size: 12pt;
+    animation: fadeInTitle 1s ease-out 12s forwards , fadeOutTitle 1s ease-in-out 13s forwards;
+}
+.militaryDisc{
+    font-size: 20pt;
+    animation: fadeIn 1s 14s ease-out forwards;
+}
+.colection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.colection > .section{
+    width: 40%;
+    min-width: 300px;
+}
+sub{
+    opacity: .8;
+    color: var(--color-main);
+}
+.section svg{
+    width: 6vh;
+    fill: var(--color-main);
+    display: inline;
+}
+
+@keyframes fadeInTitle {
+    to{
+       opacity: 1;
+       margin-top: 0; 
+    }
+}
+@keyframes fadeOutTitle {
+    to{
+        font-size: 5vh;
+        margin-top: 10px;
+        position: relative;
+    }
+}
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+        margin-left: 10px;
+    }
+} 
