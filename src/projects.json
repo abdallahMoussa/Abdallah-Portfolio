@@ -24,7 +24,7 @@
         "link":"https://react-todo-list-fawn.vercel.app/"
     },
     {
-        "name":"BRI Game",
+        "name":"Dots&Lines Game",
         "img":"/assist/images/Bri.png",
         "techs":["Html","CSS","JavaScript","jQuery"],
         "link":"https://bri-game.vercel.app/"
