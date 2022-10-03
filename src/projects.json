@@ -13,7 +13,7 @@
     },
     {
         "name":"To Do List",
-        "img":"/assist/images/TODoList.png",
+        "img":"/assist/images/ToDoList.png",
         "techs":["Html","CSS","JavaScript","React Js"],
         "link":"https://react-todo-list-fawn.vercel.app/"
     },
