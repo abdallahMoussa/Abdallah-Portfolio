@@ -3,10 +3,11 @@
     padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .item{
-    max-width: 300px;
+    min-width: 300px;
+    width:50%;
     display: flex;
     word-break: break-all;
     align-items: center;
