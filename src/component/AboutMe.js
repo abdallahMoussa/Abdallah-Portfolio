@@ -6,7 +6,7 @@ const About = ()=>{
                 <div className={`${style.section}`}>
                     <span className={`${style.who}`}>Who am i ?</span>
                     <pre className={`${style.disc} ${style.discWho}`}>   Innovative Front-End developer. I'm fresh graduate but proficient in html ,css,css3 ,Js plus modern libraries and frameworks.<br/>
-                    I prefer teamwork and know how to produce at any time and under any pressure.
+                    I like working with teams and solving problems and conflicts.
                     </pre>
                 </div>
                 <div className={`${style.section}`}>
