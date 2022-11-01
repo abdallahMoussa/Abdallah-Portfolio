@@ -25,7 +25,7 @@
     },
     {
         "name":"Dots&Lines Game",
-        "img":"/assist/images/Bri.png",
+        "img":"/assist/images/BRI.png",
         "techs":["Html","CSS","JavaScript","jQuery"],
         "link":"https://bri-game.vercel.app/"
     },
