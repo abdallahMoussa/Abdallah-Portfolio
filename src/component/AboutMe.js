@@ -5,9 +5,13 @@ const About = ()=>{
         <div className={`${style.about} w-full text-left`}>
                 <div className={`${style.section}`}>
                     <span className={`${style.who}`}>Who am i ?</span>
-                    <pre className={`${style.disc} ${style.discWho}`}>   Innovative Front-End developer. I'm fresh graduate but proficient in html ,css,css3 ,Js plus modern libraries and frameworks.<br/>
-                    I have a high learning curve and have ability to get more knowledge in my career.
-                    I like working with teams and solving problems and conflicts.
+                    <pre className={`${style.disc} ${style.discWho}`}>   Innovative Front-End developer with more one year
+experience in web development, loving coding and challenges.
+I have a big passion to learn new technologies, I have a good
+experience in HTML, CSS, JS plus modern libraries and
+frameworks like React Js and Next Js.
+I looking forward to have my own technology that compete
+with current modern technology.
                     </pre>
                 </div>
                 <div className={`${style.section}`}>
