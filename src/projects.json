@@ -1,15 +1,21 @@
 [
     {
-        "name":"Shopping Home",
-        "img":"/assist/images/shopping home.png",
-        "techs":["Html","CSS Modules","JavaScript","React Js"],
-        "link":"https://online-clothes-shop.vercel.app/"
-    },
+        "name":"Julia Shopping",
+        "img":"/assist/images/julia.png",
+        "techs":["Html","CSS Modules","Tailwind","JavaScript","React Js","Redux Js"],
+        "link":"https://julia-shopping.vercel.app/"
+    }, 
     {
         "name":"Book Shop",
         "img":"/assist/images/Book Shop.png",
         "techs":["Html","CSS Modules","Tailwind","JavaScript","React Js"],
         "link":"https://online-book-shop.vercel.app/"
+    },
+     {
+        "name":"Shopping Home",
+        "img":"/assist/images/shopping home.png",
+        "techs":["Html","CSS Modules","JavaScript","React Js"],
+        "link":"https://online-clothes-shop.vercel.app/"
     },
     {
         "name":"To Do List",
