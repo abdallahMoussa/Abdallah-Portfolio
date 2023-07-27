@@ -12,8 +12,9 @@ const Overlay = ()=>{
     })
 
     return(<>
-    
-       {!Swap && <Intro />}
+    <div className="w-full h-screen flex justify-center items-center">
+       {!Swap ? <Intro />:null}
+    </div>
        {Swap&& 
         <div className={`overlay border relative border-spacing-80 border-l-0 
         border-r-0 w-12/12 bg-zinc-900/70 rounded-2xl m-auto flex shadow-2xl`}>
