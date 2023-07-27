@@ -4,7 +4,7 @@ const About = ()=>{
     return(
         <div className={`${style.about} w-full text-left`}>
                 <div className={`${style.section}`}>
-                    <span className={`${style.who}`}>Who am i ?</span>
+                    <span className={`${style.who}`}>Summary</span>
                     <pre className={`${style.disc} ${style.discWho}`}>   Innovative Front-End developer with more one year
 experience in web development, loving coding and challenges.
 I have a big passion to learn new technologies, I have a good
