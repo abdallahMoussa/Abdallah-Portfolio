@@ -57,7 +57,7 @@ const LinksMenu = () => {
       <a
         className={`${style.Link}`}
         download
-        href="../Abdallah Moussa Front-End Resume.pdf"
+        href="https://drive.google.com/file/d/1KozJVRRepzvYRB9CH92xR9au3QPM7ht3/view?usp=drive_link"
         target="_blank"
       >
         <div title="Download CV">
