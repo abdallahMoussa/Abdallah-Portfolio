@@ -1,5 +1,11 @@
 [
     {
+        "name":"X Waiter",
+        "img":"/assist/images/xwaiter.png",
+        "techs":"x-waiter is my own project that had sold to many restaurants and cafes.",
+        "link":"https://xwaiter.com"
+    },
+    {
         "name":"Julia Shopping",
         "img":"/assist/images/julia.png",
         "techs":["Html","CSS Modules","Tailwind","JavaScript","React Js","Redux Js"],

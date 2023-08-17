@@ -46,7 +46,8 @@
 .projName , .projImg{
     display: block;
     transform: rotate(-5deg);
-    position: absolute
+    position: absolute;
+
 }
 .projImg{
     width: 90px;
@@ -66,7 +67,7 @@
     width: 100%;
 }
 .projName{
-    color: black;
+    color: white;
     bottom: 10px;
     text-shadow: 1px 1px 1px black;
     left: 20px;
@@ -120,4 +121,8 @@
         line-height: 25px;
         color: var(--color-main);
     }
+}
+.xwaiter{
+    font-weight: 400;
+    padding: 3px;
 }
